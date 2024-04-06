@@ -1,0 +1,16 @@
+---
+title: "Funções de teste"
+output: html_notebook
+---
+```{r}
+parouimpar <- function(i){
+  return(ifelse(i%%2==0,"Par","Impar"))
+}
+for(i in 1:10){
+  print(paste("Numero",i, "é", parouimpar(i)))
+}
+```
+```{r}
+
+```
+
